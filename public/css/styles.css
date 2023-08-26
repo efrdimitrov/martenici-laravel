@@ -525,7 +525,7 @@ a {
 .c-box__img, .c-box__promo {
   font: bold 13px tahoma;
   text-align: center;
-  border: 0.5vw solid red;
+  border: 2px solid red;
   border-image: repeating-linear-gradient(44deg, red, red 1px, white, white 4px) 2;
 }
 .c-box__img:hover, .c-box__promo:hover {
@@ -629,6 +629,9 @@ a {
   .c-box__width-homeLarge {
     width: 98.4vw;
   }
+  .c-box__img, .c-box__promo {
+    border: 0.5vw solid red;
+  }
 }
 @media screen and (min-width: 360px) and (max-width: 659px) {
   .c-box {
@@ -642,6 +645,9 @@ a {
   }
   .c-box__width-homeLarge {
     width: 73.8vw;
+  }
+  .c-box__img, .c-box__promo {
+    border: 0.5vw solid red;
   }
 }
 @media screen and (min-width: 660px) {
