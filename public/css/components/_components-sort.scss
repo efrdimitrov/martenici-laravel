@@ -1,0 +1,27 @@
+.c-sort {
+    max-width: 450px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    justify-items: center;
+    gap: 5px;
+    &__heading {
+        align-self: center;
+        color: $red1000;
+        font-family: 'Microsoft Sans Serif', arial, sans-serif;
+    }
+    &__list {
+        width: 110px;
+        color: $red900;
+        background-color: $red300;
+        border: 2px $red700 solid;
+        border-radius: 3px;
+        font: bold 1.1em Comic Sans MS, American, Cursive, Tahoma;
+    }
+    &__list:hover {
+        background-color: $orange200;
+    }
+    &-edit {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}

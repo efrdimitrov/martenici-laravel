@@ -1,0 +1,78 @@
+.c-nav {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 1002;
+    -webkit-box-shadow: 2px 2px 4px 0 $red1000;
+    -moz-box-shadow: 2px 2px 4px 0 $red1000;
+    box-shadow: 2px 2px 4px 0 $red1000;
+    background-color: $red400;
+    &__lists {
+        display: flex;
+        width: auto;
+    }
+    &__logo-img {
+        width: 8em;
+        height: 2em;
+        padding-top: 3px;
+    }
+    &__list {
+        background-color: transparent;
+        color: $gray50;
+        border: none;
+        padding: 12px 1em;
+        display: block;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    &__list:hover {
+        background-color: $red200;
+        color: $red700;
+    }
+    &__drop {
+        display: none;
+    }
+    &__category::after {
+        content: "▼";
+    }
+    &__lists:hover &__drop {
+        display: block;
+        position: absolute;
+        padding: 42px;
+    }
+    &__drop {
+        &-list {
+            background-color: $red500;
+            color: $gray50;
+            padding: 8px 4px;
+            margin: 0 -120px;
+            width: 300px;
+            text-align: left;
+            font-style: bold 14px Tahoma, Verdana, Arial;
+            text-transform: uppercase;
+            border-top: none;
+            border-right: none;
+            border-bottom: 2px $red900 solid;
+            border-left: none;
+        }
+        &-list:hover {
+            left: 0;
+            background-color: $red400;
+            color: $red900;
+        }
+    }
+    &__current {
+        color: $red900!important;
+        -webkit-box-shadow: 0 0 5px 1px #FFF;
+        box-shadow: 0 0 5px 1px #FFF;
+    }
+    &__models {
+        text-transform: lowercase;
+    }
+}

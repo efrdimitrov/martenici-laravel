@@ -1,0 +1,105 @@
+.c-box {
+    font-size: 13px;
+    margin: 0 auto;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    &__home {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    &__image {
+        box-sizing: border-box;
+        height: auto;
+        overflow: hidden;
+    }
+    &__width {
+        &-img {
+            width: 100%;
+        }
+    }
+    &__heigth {
+        &-square {
+            height: 150px;
+        }
+    }
+    &__price-promo {
+        color: $red900;
+        background-color: $amber100;
+    }
+    &__price-old {
+        text-decoration: line-through;
+        opacity: 0.6;
+    }
+    &__img,
+    &__promo {
+        font: bold 13px tahoma;
+        text-align: center;
+        border: 0.5vw solid red;
+        border-image: repeating-linear-gradient(44deg, red, red 1px, white, white 4px) 2;
+    }
+    &__img:hover,
+    &__promo:hover {
+        border-image: none;
+        border: 2px solid green;
+        background-color: $body;
+    }
+    &__img,
+    &__img-hide {
+        background: $red300;
+    }
+    &__of {
+        background: $red300!important;
+        opacity: 0.7;
+        &-text {
+            z-index: 1;
+            font: bold 15px tahoma;
+            color: white;
+            background: $red900;
+            opacity: 1!important;
+        }
+    }
+    &__promo {
+        position: relative;
+        background: $red400;
+        &-square {
+            top: 124px;
+            left: 14px;
+        }
+        &-percent {
+            position: absolute;
+            color: $amber100;
+            opacity: 0.7;
+            font: bold 19px tahoma;
+            background: $rose500;
+            top: 0;
+            right: 0;
+            z-index: 1;
+        }
+    }
+    &__img-zoom {
+        height: auto;
+        overflow: hidden;
+    }
+    &__img-zomm img {
+        width: 100%;
+        transition: all .5s ease-in-out;
+    }
+    &__img-zoom img:hover {
+        transform: scale(1.4);
+    }
+    &__of img:hover {
+        transform: scale(1);
+    }
+    &-img-view-data {
+        color: #fff;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    &-no-quantity {
+        padding-top: 10px;
+    }
+}

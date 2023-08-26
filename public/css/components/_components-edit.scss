@@ -1,0 +1,12 @@
+.c-edit {
+    &_delete {
+        background-color: rgb(114, 17, 5);
+        color: white;
+    }
+
+    &_delete:hover {
+        background-color: brown;
+        cursor: pointer;
+        color: yellowgreen;
+    }
+}

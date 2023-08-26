@@ -1,0 +1,54 @@
+//@mixin boxes($header-width, $square-col, $box-home) {
+//    .c-header,
+//    .c-search {
+//        width: $header-width;
+//    }
+//    .c-box {
+//        width: $header-width;
+//        &__square {
+//            grid-template-columns: repeat($square-col, 1fr);
+//        }
+//        &__home {
+//            width: $box-home;
+//        }
+//        &__slim {
+//            grid-template-columns: repeat($square-col / 2, 1fr);
+//        }
+//    }
+//}
+//
+//@media screen and (max-width: 299px) {
+//    @include boxes($header-width: 90%, $square-col: 2, $box-home: 240px);
+//}
+//
+//@media screen and (min-width: 360px) and (max-width: 400px) {
+//    @include boxes($header-width: 99vw, $square-col: 4, $box-home: 99vw);
+//}
+//
+//@media screen and (min-width: 401px) and (max-width: 700px) {
+//    @include boxes($header-width: 90%, $square-col: 4, $box-home: 425px);
+//}
+//
+//@media screen and (min-width: 701px) and (max-width: 1000px) {
+//    @include boxes($header-width: 696px, $square-col: 6, $box-home: 696px);
+//}
+//
+//@media screen and (min-width: 1001px) and (max-width: 1200px) {
+//    @include boxes($header-width: 924px, $square-col: 8, $box-home: 924px);
+//}
+//
+//@media screen and (min-width: 1201px) and (max-width: 1400px) {
+//    @include boxes($header-width: 1152px, $square-col: 10, $box-home: 1152px);
+//}
+//
+//@media screen and (min-width: 1401px) and (max-width: 1600px) {
+//    @include boxes($header-width: 1380px, $square-col: 12, $box-home: 1381px);
+//}
+//
+//@media screen and (min-width: 1601px) and (max-width: 1800px) {
+//    @include boxes($header-width: 1608px, $square-col: 14, $box-home: 1609px);
+//}
+//
+//@media screen and (min-width: 1801px) {
+//    @include boxes($header-width: 1836px, $square-col: 16, $box-home: 1837px);
+//}

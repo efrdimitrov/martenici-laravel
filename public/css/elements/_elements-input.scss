@@ -1,0 +1,10 @@
+@import "../settings/_settings-color.scss";
+
+input,
+select {
+  border-radius: 3px;
+  border: 1px solid;
+  font-weight: 600;
+  padding-left: 4px;
+  height: 26px;
+}

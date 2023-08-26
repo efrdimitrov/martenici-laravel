@@ -1,0 +1,24 @@
+.c-search {
+    margin: 1em auto;
+    background-color: $red200;
+    border-radius: 4px;
+    border: 1px $red900 solid;
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    gap : 5px;
+    padding: 5px;
+
+    &__field {
+        background-color: $rose50;
+        &:focus {
+            background-color: $orange200;
+        }
+    }
+
+    &__btn {
+        width: auto;
+        background-color: $red300;
+        border: 2px $red700 solid;
+        border-radius: 3px;
+    }
+}

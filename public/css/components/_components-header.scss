@@ -1,0 +1,30 @@
+.c-header {
+    margin: 0 auto;
+    border: none;
+    //border-radius: 6px;
+    padding: 0;
+    //border-width: 1px;
+    //border-color: red;
+    //border-style: dashed;
+    background-image: url(/img/background-header.jpg);
+    &__heading {
+        font-family: 'Neucha', cursive;
+        font-size: 22px;
+        color: $dark-blue300;
+        padding-top: 5px;
+    }
+    &__title {
+        font-family: 'Pacifico', cursive;
+        font-size: 25px;
+        margin: 0.5em;
+        color: $red1000;
+        font-weight: 500;
+    }
+    &__legend {
+        font-family: 'Caveat', cursive;
+        font-size: 25px;
+        font-weight: 800;
+        color: $red1000;
+        padding: 0 5px 5px 8px;
+    }
+}
