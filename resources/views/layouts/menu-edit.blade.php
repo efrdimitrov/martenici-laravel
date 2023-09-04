@@ -1,4 +1,4 @@
-<ul class="c-sort o-container o-shadow c-sort-edit">
+<ul class="c-sort o-container c-sort-edit">
 
     @php
         $countSquarePositive = \App\Http\Controllers\Edit\EditSquareController::getCountSquarePositive()->count();

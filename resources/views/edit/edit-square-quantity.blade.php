@@ -7,7 +7,7 @@
 @endsection
 
 @section('all')
-    <div class="c-box__square c-box o-bolder o-shadow">
+    <div class="c-box__square c-box o-bolder">
         @foreach($squares as $square)
             @php $ofBox = '';
                 if ($square->quantity == 0)

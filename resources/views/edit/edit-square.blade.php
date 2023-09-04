@@ -11,7 +11,7 @@
         @csrf
         <input name="zeroedAllSquare" type="submit" value="Занули кашоните на всички правоъгълни" style="background-color: red; font-weight: bold; cursor: pointer;" onclick="return confirm('!!! ЩЕ ЗАНУЛИ ВСЧИКИ ПРАВОЪГЪЛНИ !!!')">
     </form>
-    <div class="c-box__square c-box o-bolder o-shadow">
+    <div class="c-box__square c-box o-bolder">
         @foreach($squares as $square)
             @php
                 $promoBox = 'c-box__img';

@@ -11,7 +11,7 @@
         @csrf
         <input name="zeroedAllHome" type="submit" value="Занули кашоните на всички за дома" style="background-color: red; font-weight: bold; cursor: pointer;"  onclick="return confirm('!!! ЩЕ ЗАНУЛИ ВСЧИКИ ЗА ДОМА !!!')">
     </form>
-    <div class="c-box__home c-box o-bolder o-shadow">
+    <div class="c-box__home c-box o-bolder">
         @foreach($homes as $home)
             @php
                 $width = $home->width / 3;

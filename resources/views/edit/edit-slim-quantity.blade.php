@@ -7,7 +7,7 @@
 @endsection
 
 @section('all')
-    <div class="c-box__slim c-box o-bolder o-shadow">
+    <div class="c-box__slim c-box o-bolder">
         @foreach($slims as $slim)
             @php $ofBox = '';
                 if ($slim->quantity == 0)

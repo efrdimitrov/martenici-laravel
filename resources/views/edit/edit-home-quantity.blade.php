@@ -7,7 +7,7 @@
 @endsection
 
 @section('all')
-    <div class="c-box__home c-box o-bolder o-shadow">
+    <div class="c-box__home c-box o-bolder">
         @foreach($homes as $home)
             @php
                 $width = $home->width / 3;

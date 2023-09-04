@@ -11,7 +11,7 @@
         @csrf
         <input name="zeroedAllSlim" type="submit" value="Занули кошоните на всички тънки" style="background-color: red; font-weight: bold; cursor: pointer;"  onclick="return confirm('!!! ЩЕ ЗАНУЛИ ВСЧИКИ ТЪНКИ !!!')">
     </form>
-    <div class="c-box__slim c-box o-bolder o-shadow">
+    <div class="c-box__slim c-box o-bolder">
         @foreach($slims as $slim)
             @php
                 $promoBox = 'c-box__img';
