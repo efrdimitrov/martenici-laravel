@@ -361,6 +361,10 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
+.c-nav__list-current {
+  background-color: #f7eeed;
+  color: #7F1D1D;
+}
 .c-nav__list:hover {
   background-color: #FECACA;
   color: #B91C1C;
@@ -389,6 +393,9 @@ a {
   border-right: none;
   border-bottom: 2px #7F1D1D solid;
   border-left: none;
+}
+.c-nav__drop-list-hide {
+  display: none;
 }
 .c-nav__drop-list:hover {
   left: 0;

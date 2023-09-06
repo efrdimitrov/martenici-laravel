@@ -30,6 +30,10 @@
         display: block;
         text-decoration: none;
         font-weight: bold;
+        &-current {
+            background-color: #f7eeed;
+            color: #7F1D1D;
+        }
     }
     &__list:hover {
         background-color: $red200;
@@ -60,6 +64,9 @@
             border-right: none;
             border-bottom: 2px $red900 solid;
             border-left: none;
+            &-hide {
+                display: none;
+            }
         }
         &-list:hover {
             left: 0;
