@@ -52,7 +52,7 @@
         }
         $hidePackage = '';
         if (Route::current()->uri() == 'packages') {
-            $currentLink = 'ПОВЕЧЕ БРОЙКИ';
+            $currentLink = 'ПОВЕЧЕ БР.';
             $hidePackage = 'hide';
         }
     @endphp
