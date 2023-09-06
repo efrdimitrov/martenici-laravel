@@ -9,9 +9,9 @@
     justify-content: center;
     flex-wrap: wrap;
     z-index: 1002;
-    -webkit-box-shadow: 2px 2px 4px 0 $red1000;
-    -moz-box-shadow: 2px 2px 4px 0 $red1000;
-    box-shadow: 2px 2px 4px 0 $red1000;
+    //-webkit-box-shadow: 2px 2px 4px 0 $red1000;
+    //-moz-box-shadow: 2px 2px 4px 0 $red1000;
+    //box-shadow: 2px 2px 4px 0 $red1000;
     background-color: #e09393;
     &__lists {
         display: flex;

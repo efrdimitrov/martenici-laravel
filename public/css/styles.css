@@ -341,9 +341,6 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   z-index: 1002;
-  -webkit-box-shadow: 2px 2px 4px 0 #360404;
-  -moz-box-shadow: 2px 2px 4px 0 #360404;
-  box-shadow: 2px 2px 4px 0 #360404;
   background-color: #e09393;
 }
 .c-nav__lists {
@@ -380,7 +377,7 @@ a {
   padding: 42px;
 }
 .c-nav__drop-list {
-  background-color: #EF4444;
+  background-color: #ce6b6b;
   color: #FAFAFA;
   padding: 8px 4px;
   margin: 0 -120px;
