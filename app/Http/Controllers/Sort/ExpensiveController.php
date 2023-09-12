@@ -12,7 +12,7 @@ class ExpensiveController extends Controller
     {
         $all = DB::table('articles')
             ->where('quantity', '>', 0)
-            ->orderByRaw("price DESC, category DESC, sorting DESC, info DESC, code DESC")
+            ->orderByRaw("price DESC, size ASC, category DESC, sorting DESC, info DESC, code DESC")
             ->get();
 
         return view('sorts.expensive', ['all' => $all]);

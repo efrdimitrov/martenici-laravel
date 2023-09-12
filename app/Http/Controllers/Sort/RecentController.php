@@ -12,7 +12,7 @@ class RecentController extends Controller
     {
         $all = DB::table('articles')
             ->where('quantity', '>', 0)
-            ->orderByRaw("code DESC, category DESC, sorting DESC, info DESC, code DESC")
+            ->orderByRaw("code DESC, size ASC, category DESC, sorting DESC, info DESC, code DESC")
             ->get();
 
         return view('sorts.recent', ['all' => $all]);

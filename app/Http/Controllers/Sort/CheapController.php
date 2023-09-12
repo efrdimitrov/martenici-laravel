@@ -11,7 +11,7 @@ class CheapController extends Controller
     {
         $all = DB::table('articles')
             ->where('quantity', '>', 0)
-            ->orderByRaw("price ASC, price_old / price DESC, category DESC, sorting DESC, info DESC, code DESC")
+            ->orderByRaw("price ASC, size ASC, price_old / price DESC, category DESC, sorting DESC, info DESC, code DESC")
             ->get();
 
         return view('sorts.cheap', ['all' => $all]);
